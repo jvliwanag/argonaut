@@ -7,7 +7,7 @@ object PublishSettings {
 
   lazy val all = Seq[Sett](
     pom
-  , publish
+//  , publish
   , publishMavenStyle := true
   , publishArtifact in Test := false
   , pomIncludeRepository := { _ => false }
